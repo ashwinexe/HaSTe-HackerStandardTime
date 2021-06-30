@@ -4,7 +4,7 @@ var emojis = [
     '&#129416;', '&#127817;', '&#128007;', '&#9830;', '&#128006;',
     '&#127815;', '&#127812;', '&#127810;', '&#127808;', '&#127806;',
     '&#127804;', '&#127800;', '&#127795;', '&#127791;', '&#127786;',
-    '&#127785;', '&#127784;', '&#127783;',]; //list for team emojis
+    '&#127785;', '&#127784;', '&#127783;','🐊']; //list for team emojis
 
 
 function sleepHours() {
@@ -32,5 +32,5 @@ function displayEmojis(guild, hrs){
 }
 
 function rr(){
-    setTimeout(function(){ window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')}, 1500);
+    setTimeout(function(){ window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')}, 2900);
 }
