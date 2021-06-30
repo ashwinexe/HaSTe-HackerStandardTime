@@ -27,4 +27,10 @@ function displayEmojis(guild, hrs){
         stmt += emojis[guild] + ' ';
     }
     document.getElementById('output').innerHTML = stmt + " hrs to sleep..." 
+
+    rr();
+}
+
+function rr(){
+    setTimeout(function(){ window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')}, 1500);
 }
