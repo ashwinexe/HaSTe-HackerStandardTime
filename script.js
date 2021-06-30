@@ -4,7 +4,10 @@ var emojis = [
     '&#129416;', '&#127817;', '&#128007;', '&#9830;', '&#128006;',
     '&#127815;', '&#127812;', '&#127810;', '&#127808;', '&#127806;',
     '&#127804;', '&#127800;', '&#127795;', '&#127791;', '&#127786;',
-    '&#127785;', '&#127784;', '&#127783;','🐊']; //list for team emojis
+    '&#127785;', '&#127784;', '&#127783;',    '&#127815;', '&#127812;',
+    '&#127810;', '&#127808;', '&#127806;','&#127804;', '&#127800;',
+    '&#127795;', '&#127791;', '&#127786;','&#127785;', '&#127784;',
+    ]; //list for team emojis
 
 
 function sleepHours() {
@@ -26,7 +29,7 @@ function displayEmojis(guild, hrs){
         const element = emojis[index];
         stmt += emojis[guild] + ' ';
     }
-    document.getElementById('output').innerHTML = stmt + " hrs to sleep..." 
+    document.getElementById('output').innerHTML = stmt + " to 7 A.M...." 
 
     rr();
 }
